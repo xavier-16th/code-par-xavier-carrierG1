@@ -1,0 +1,42 @@
+body {
+    background-color: #563974; 
+    background-image: url("https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/8103728/496143_563974.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+
+
+}
+
+/* Top Navigation Bar */
+.navbar {
+    background-color: #ff3366; 
+    padding: 10px;
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar .menu a {
+    color: white;  
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar .menu a:hover {
+    color: #a50be2;  
+}
+
+.navbar .menu a:active {
+    color: #553ea8;
+    background-color: transparent;
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://marketplace.canva.com/EAFvLSrAX9U/1/0/1600w/canva-music-desktop-wallpaper-qgZBY-Ll2Vc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+p {
+    color: red;
+}
+
+/* Position the Spotify image in the bottom left */
+.bottomleft {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.bottomleft img {
+    width: 290px; 
+    height: 290px; 
+}
+
+/* Position the Apple image in the bottom right */
+.bottomright {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.bottomright img {
+    width: 290px; 
+    height: 290px; 
+}
